@@ -165,7 +165,7 @@ function clickHandler(){
     var palindrome = checkForAllDateFormats(date);
     if(palindrome){
 
-      display.innerHTML="Wohooo!! your Birthdate is a Palindrome";
+      display.innerHTML="Wohooo!! you are a Palindrome Baby!!";
     }
     else{
 
