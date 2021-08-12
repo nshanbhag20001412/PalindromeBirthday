@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@1,700&display=swap');
+
+*,html{
+    margin:0;
+    padding:0;
+}
+body{
+  font-size: x-large;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  background-image: url('/wallpaper2.jpg');
+  background-size:auto;
+  background-repeat: no-repeat;
+}
+
+header{
+    margin-top: 1rem;;
+    padding:1rem 2rem;
+    background-color: #00535a;
+    width:max-content;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color:white;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2rem;
+}
+
+input, button{
+    background-color: #00535a;
+    color:white;
+    margin:1rem;
+    padding:1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: larger;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.display{
+    text-align:center;
+    color:#00535a;
+    font-weight:bolder;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+}
