@@ -51,3 +51,25 @@ button:hover{
     font-size: larger;
     text-shadow: 1px 1px black;
 }
+
+.footer{
+    background-color:#00535a;
+    padding:1rem 0rem;
+    text-align: center;
+    background-size:cover;
+    color: white;
+    position:absolute;
+   bottom:0px;
+   width:100%;
+}
+.footer ul{
+    padding-inline-start: 0px;
+    
+}
+
+.link{
+
+    text-decoration: none;
+    color: white;
+    padding:0 5vh;
+}
